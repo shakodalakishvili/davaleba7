@@ -1,0 +1,184 @@
+.conteiner{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid red;
+    background-color: #FAFAFA;
+}
+header{
+    max-width: inherit;
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#ffffff ;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 58px;
+}
+
+/* სექშენ 1 */
+
+.section_one{
+    width: 90%;
+    height: 716px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-left: 87px;
+    margin-right: 87px;
+    margin-top: 68px;
+    
+
+}
+
+.dog{
+    width: 100%;
+    height: 100%;
+}
+  
+
+p{
+    width: 340px;
+    height: 90px;
+    font-size: 24px;
+    color:#fdf50e;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 317px;
+    right: 427px;
+    bottom: 309px;
+    left: 427px;
+    
+}
+
+/* .სექშენი 2 */
+
+.section_two{
+    width: 90%;
+    margin: 0 auto;
+    /* margin-left: 87px;
+    margin-right: 87px;
+    margin-top: 68px; */
+
+}
+
+h2{
+    font-size: 24px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    
+}
+.cards{
+    width: 100%;
+    height: 575px;
+    display: flex;
+    justify-content: space-between;
+   
+
+    
+    
+}
+
+.card{
+    width: 24%;
+    height: 467px;
+    background-color:#ffffff;
+    
+   
+ 
+}
+.card img{
+    width:80%;
+   margin-top: 30px;
+   margin-right: 55px;
+  margin-bottom: 50px;
+   margin-left: 30px;
+   justify-content: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+button{
+    background-color: #e7e7e7;
+    padding: 10px 25px;
+}
+
+.fasi{
+    color: #f5621f;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    gap: 111px;
+    margin-top: 72px;
+}
+
+.cart{
+    background-color:#74b42c;
+    padding: 10px;
+}
+h1{
+    font-size: 24px;
+    justify-content: center;
+
+}
+
+/* DAIWYO FOOTER */
+
+footer{
+   width: 90%;
+   height: 156px;
+   margin: 0 auto;
+   margin-top: 166px;
+   margin-bottom: 14px;
+   display: flex;
+   justify-content: space-between;
+
+   
+}
+.zoo{
+    width: 141px;
+    height: 20px;
+    
+}
+h1{
+    padding-bottom: 20px;
+    color: black;
+}
+h3{
+    padding-bottom: 5px;
+}
+h4{
+    padding-bottom: 5px;
+}
+
+h5{
+    padding-bottom: 5px;
+}
+
+a{
+    color: black;
+}
+
+
+
